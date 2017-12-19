@@ -1,0 +1,43 @@
+---
+layout:post
+title:如何用虚拟机安装ubuntu系统
+description:(课余的时候安装的，没真正用过linux系统。只是记录一下自己的学习)
+---
+##1.虚拟机的安装
+什么是虚拟机：虚拟机（Virtual Machine），在计算机科学中的体系结构裏，是指一种特殊的软件，他可以在计算机平台和终端用户之间创建一种环境，而终端用户则是基于这个软件所创建的环境来操作软件。在计算机科学中，虚拟机是指可以像真实机器一样运行程序的计算机的软件实现。
+（我在用的是VM14）
+VMware Workstation 14（以下简称VM14）
+下面是VM14的下载地址：https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html
+###vm14的性能：（本文所讲的是64位系统；32位建议下载VM10）
+先进的性能
+支持多达 16 个虚拟 CPU、8 TB SATA 磁盘和 64 GB RAM
+新的虚拟 SATA 磁盘控制器
+现在支持 20 个虚拟网络
+USB3 流支持更快的文件复制
+改进型应用和 Windows 虚拟机启动时间
+固态磁盘直通
+###VM14的序列码：
+CG54H-D8D0H-H8DHY-C6X7X-N2KG6
+ZC3WK-AFXEK-488JP-A7MQX-XL8YF
+AC5XK-0ZD4H-088HP-9NQZV-ZG2R4
+ZC5XK-A6E0M-080XQ-04ZZG-YF08D
+ZY5H0-D3Y8K-M89EZ-AYPEG-MYUA8
+（建议第一次就输入）
+##2.Ubuntu的获取：
+依然去官网下载：https://www.ubuntu.com/download
+下载好ubuntu14后进行安装；
+##3.安装：
+进入VM14点击【创建新的虚拟机】
+选择典型（也可自定义，不过Ubuntu的安装包含在典型中）
+点击【下一步】再点击【下一步】
+选择光盘所在的位置（ubuntu14所在的位置），选择第三项【稍后安装操作系统】，之后点击【下一步】。
+然后根据你需要安装的虚拟机类型选择合适的客户机操作系统与版本，如果是32位的，我们选择【Linux】-【Ubuntu】，如果是64位的，我们选择【Linux】-【Ubuntu 64位】，我这里是64位，所以我们选择【Ubuntu 64位】。
+给系统命名安装完成；
+##4.第一次运行报错：
+Intel -vt x被禁用的解决办法：
+###进入BIOS的方法:
+http://www.windowszj.com/news/1682.html
+其中启动按键是指笔记本电脑上的一个有“转号的箭头”的圆形按钮，在关机时长按可以打开。
+###步骤：
+选择advanced选项卡，选择CPU setup,按enter键进入；选择Intel Virtualization Technology，选择，按enter；选择Enable，按enter键，保存退出，重启；
+##最后（第一次写博客，有许多不会的地方，作为测试用）
