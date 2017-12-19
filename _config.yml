@@ -1,12 +1,12 @@
-# Basic
-title: 潘柏信
+﻿# Basic
+title: jojo（沈泉锋）
 subtitle: 个人站
-description: 欢迎来到我的个人站~
+description: 战略忽悠局万岁~
 # 头像里面的标题
-avatarTitle: leopardpan
+avatarTitle: jojoff
 # 头像里面的描述
-avatarDesc: iOS / 机器学习
-url: "http://baixin.io"
+avatarDesc: java /python的学习/动漫、军迷
+url: "https://jojo.github.io"
 
 # Comment
 comment:
@@ -16,14 +16,14 @@ comment:
 # Social
 social:
     weibo: 5366874726 
-    github: leopardpan
+    github: jojoff
     # twitter: 
-    mail: leopardpan@icloud.com
+    mail: 1617994995@qq.com
 
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
 baidu:
-    id: 8ba1c6be0953b6f9c2ba38e57f615421  
+    id:e9c85106f23be55d77060316c33f8ce9  
 
 # Google Analytics
 # 使用博客模板请去掉或者更换 id
@@ -63,7 +63,7 @@ nav:
     
 
 # Pagination
-gems: [jekyll-paginate,jekyll-sitemap]
+plugins: [jekyll-paginate,jekyll-sitemap]
 paginate: 20
 paginate_path: "page/:num/"
 
